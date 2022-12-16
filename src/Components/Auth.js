@@ -55,13 +55,13 @@ export default function (props) {
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="text-center">
-            Already registered?{" "}
+            Déja enrégistré?{" "}
             <span className="link-primary" onClick={changeAuthMode}>
-              Sign In
+              Se connecter
             </span>
           </div>
           <div className="form-group mt-3">
-            <label>Email address</label>
+            <label> Adresse email</label>
             <input
               type="email"
               className="form-control mt-1"
@@ -69,7 +69,7 @@ export default function (props) {
             />
           </div>
           <div className="form-group mt-3">
-            <label>Password</label>
+            <label>Mot de passe</label>
             <input
               type="password"
               className="form-control mt-1"
